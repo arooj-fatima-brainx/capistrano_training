@@ -2,14 +2,14 @@
 lock "~> 3.17.3"
 
 require 'capistrano-db-tasks'
-set :application, "app"
+set :application, "aws-rails"
 set :repo_url, "git@github.com:arooj-fatima-brainx/capistrano_training.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, "/home/deploy/app"
+set :deploy_to, "/home/deploy/aws-rails"
 set :branch, ENV['BRANCH'], ENV['BRANCH']
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
