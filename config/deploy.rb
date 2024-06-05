@@ -62,8 +62,8 @@ set :init_system, :systemd
 # set :yarn_roles, :all                                     # default
 # set :yarn_env_variables, {}                               # default
 
-SSHKit.config.command_map[:sidekiq] = 'bundle exec sidekiq'
-SSHKit.config.command_map[:sidekiqctl] = 'bundle exec sidekiqctl'
+# SSHKit.config.command_map[:sidekiq] = 'bundle exec sidekiq'
+# SSHKit.config.command_map[:sidekiqctl] = 'bundle exec sidekiqctl'
 
 # set :puma_rackup, -> { File.join(current_path, 'config.ru') }
 # set :puma_state, "#{shared_path}/tmp/pids/puma.state"

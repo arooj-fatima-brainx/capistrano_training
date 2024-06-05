@@ -72,7 +72,7 @@ set :deploy_to, "/home/deploy/#{fetch :application}"
 
 append :linked_files, 'config/credentials/staging.key'
 
-set :sidekiq_service_unit_name, 'sidekiq-staging'
+# set :sidekiq_service_unit_name, 'sidekiq-staging'
 
 set :rails_env, :staging
 set :default_env, environment: :staging

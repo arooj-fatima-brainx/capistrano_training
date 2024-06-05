@@ -63,7 +63,7 @@ group :development do
   gem 'capistrano-rails-console', "~> 2.3", require: false
   gem 'capistrano-rails-tail-log', "~> 0.1", require: false
   gem 'capistrano-rvm', "~> 0.1", require: false
-  gem 'capistrano-sidekiq', "~> 2.0", require: false
+  # gem 'capistrano-sidekiq', "~> 2.0", require: false
   gem 'capistrano3-puma', "~> 5.2", require: false
   gem 'capistrano-yarn', "~> 2.0", require: false
 
