@@ -57,6 +57,9 @@ set :puma_restart_command, 'bundle exec --keep-file-descriptors puma'
 
 set :init_system, :systemd
 
+set :bundle_flags, '--deployment'
+set :bundle_env_variables, { 'BUNDLER_VERSION' => '2.4.1' }
+
 # set :yarn_target_path, -> { release_path } # default not set
 # set :yarn_flags, '--production --silent --no-progress'    # default
 # set :yarn_roles, :all                                     # default
