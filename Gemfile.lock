@@ -91,10 +91,6 @@ GEM
     capistrano-rvm (0.1.2)
       capistrano (~> 3.0)
       sshkit (~> 1.2)
-    capistrano-sidekiq (2.3.1)
-      capistrano (>= 3.9.0)
-      capistrano-bundler
-      sidekiq (>= 6.0)
     capistrano-yarn (2.0.2)
       capistrano (~> 3.0)
     capistrano3-puma (5.2.0)
@@ -102,7 +98,6 @@ GEM
       capistrano-bundler
       puma (>= 4.0, < 6.0)
     concurrent-ruby (1.2.2)
-    connection_pool (2.4.1)
     crass (1.0.6)
     cssbundling-rails (1.2.0)
       railties (>= 6.0.0)
@@ -198,15 +193,8 @@ GEM
     rdoc (6.5.0)
       psych (>= 4.0.0)
     redis (4.8.1)
-    redis-client (0.16.0)
-      connection_pool
     reline (0.3.8)
       io-console (~> 0.5)
-    sidekiq (7.1.2)
-      concurrent-ruby (< 2)
-      connection_pool (>= 2.3.0)
-      rack (>= 2.2.4)
-      redis-client (>= 0.14.0)
     sshkit (1.21.5)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
@@ -244,7 +232,6 @@ DEPENDENCIES
   capistrano-rails-console (~> 2.3)
   capistrano-rails-tail-log (~> 0.1)
   capistrano-rvm (~> 0.1)
-  capistrano-sidekiq (~> 2.0)
   capistrano-yarn (~> 2.0)
   capistrano3-puma (~> 5.2)
   cssbundling-rails
