@@ -81,7 +81,7 @@ test:
 #
 staging:
   <<: *default
-  database: app_staging
+  database: staging_db
   username: staging_user
   password: 123456
 
