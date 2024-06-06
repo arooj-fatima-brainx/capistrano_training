@@ -8,8 +8,8 @@ gem "rails", "~> 7.0.7", ">= 7.0.7.2"
 
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
-gem 'sprockets', '~> 4.0'
-gem 'sprockets-rails', "~> 3.2", require: 'sprockets/railtie'
+# gem 'sprockets', '~> 4.0'
+# gem 'sprockets-rails', "~> 3.2", require: 'sprockets/railtie'
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
 
@@ -46,7 +46,7 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
-gem 'sass-rails'
+# gem 'sass-rails'
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
