@@ -48,7 +48,7 @@ append :linked_files, 'config/database.yml'
 set :keep_releases, 5
 set :rvm_type, :user
 set :rvm_custom_path, '/usr/share/rvm'
-set :rvm_ruby_version, "3.0.3"
+set :rvm_ruby_version, "3.2.2"
 
 
 set :deploy_via, :remote_cache
