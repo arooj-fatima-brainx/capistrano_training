@@ -265,7 +265,7 @@ DEPENDENCIES
   jsbundling-rails
   pg (~> 1.1)
   propshaft
-  puma (~> 5.0)
+  puma (~> 5.5)
   rails (~> 7.0.7, >= 7.0.7.2)
   redis (~> 4.0)
   stimulus-rails
